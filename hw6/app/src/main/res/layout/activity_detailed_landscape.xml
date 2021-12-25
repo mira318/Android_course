@@ -4,35 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailedActivity"
-    android:orientation="vertical"
+    tools:context=".DetailedActivityPortrait"
+    android:orientation="horizontal"
     android:weightSum="1">
 
     <ImageView
-        android:id="@+id/detailed_image"
-        android:src="@mipmap/sunset_photo"
-        android:layout_width="203dp"
-        android:layout_height="252dp"
-        android:ellipsize="end"
-        android:scaleType="fitCenter"
+        android:id="@+id/detailed_image_landscape"
+        android:layout_width="222dp"
+        android:layout_height="247dp"
         android:layout_gravity="center"
+
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginStart="83dp"
-        android:layout_marginEnd="74dp"
         android:layout_weight="0.5"
-        />
+        android:ellipsize="end"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/sunset_photo" />
 
     <TextView
-        android:id="@+id/detailed_text"
+        android:id="@+id/detailed_text_landscape"
         tools:text="a looooong text about al that note and image and everything"
         android:layout_width="328dp"
         android:layout_height="187dp"
         android:layout_gravity="center"
+
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="89dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_weight="0.5"
-        />
+        android:layout_weight="0.5" />
+
 </LinearLayout>
