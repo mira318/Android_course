@@ -11,14 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="128dp"
         android:layout_gravity="center"
+        app:cardCornerRadius="4dp"
 
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:background="@color/card_view_background_color"
+        android:background="?selectableItemBackground"
         android:clickable="true"
         android:focusable="true"
-        app:cardCornerRadius="4dp"
+        android:focusableInTouchMode="true"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
