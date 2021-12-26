@@ -9,13 +9,12 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="4dp"
+        android:layout_height="@dimen/card_height"
+        app:cardCornerRadius="@dimen/card_corner_radius"
 
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="@dimen/card_side_margin"
+        android:layout_marginTop="@dimen/card_top_margin"
+        android:layout_marginEnd="@dimen/card_side_margin"
         android:background="?selectableItemBackground"
         android:clickable="true"
         android:focusable="true"
@@ -27,12 +26,12 @@
 
         <ImageView
             android:id="@+id/image_in_card"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="@dimen/card_image_width"
+            android:layout_height="@dimen/card_image_height"
+            android:layout_marginStart="@dimen/card_image_side_margin"
+            android:layout_marginTop="@dimen/card_image_side_margin"
+            android:layout_marginBottom="@dimen/card_image_side_margin"
 
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
             android:scaleType="fitCenter"
             android:src="@mipmap/sunset_photo"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -40,14 +39,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/data_string"
+            android:id="@+id/date_string"
             android:layout_width="match_parent"
-            android:layout_height="18dp"
-            android:layout_marginStart="128dp"
+            android:layout_height="@dimen/card_date_height"
+            android:layout_marginStart="@dimen/card_date_start_margin"
+            android:layout_marginTop="@dimen/card_date_top_margin"
 
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="94dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="first string" />
@@ -55,13 +52,13 @@
         <TextView
             android:id="@+id/card_text"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginStart="128dp"
-            android:layout_marginTop="42dp"
-
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="@dimen/card_text_height"
+            android:layout_marginStart="@dimen/card_text_start_margin"
+            android:layout_marginTop="@dimen/card_text_top_margin"
+            android:layout_marginEnd="@dimen/card_text_end_margin"
+            android:layout_marginBottom="@dimen/card_text_bottom_margin"
             android:ellipsize="end"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

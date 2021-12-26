@@ -6,19 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".DetailedActivityPortrait"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="@dimen/portrait_layout_weight_sum">
 
     <ImageView
         android:id="@+id/detailed_image_portrait"
-        android:layout_width="203dp"
-        android:layout_height="252dp"
+        android:layout_width="@dimen/portrait_image_width"
+        android:layout_height="@dimen/portrait_image_height"
         android:layout_gravity="center"
 
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="74dp"
-        android:layout_marginBottom="16dp"
-        android:layout_weight="0.5"
+        android:layout_marginStart="@dimen/portrait_image_start_margin"
+        android:layout_marginTop="@dimen/portrait_image_side_margin"
+        android:layout_marginEnd="@dimen/portrait_image_end_margin"
+        android:layout_weight="@dimen/portrait_image_weight"
         android:ellipsize="end"
         android:scaleType="fitCenter"
         android:src="@mipmap/sunset_photo" />
@@ -26,13 +25,13 @@
     <TextView
         android:id="@+id/detailed_text_portrait"
         tools:text="a looooong text about al that note and image and everything"
-        android:layout_width="328dp"
-        android:layout_height="187dp"
+        android:layout_width="@dimen/portrait_text_width"
+        android:layout_height="@dimen/portrait_text_height"
         android:layout_gravity="center"
 
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="89dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_weight="0.5" />
+        android:layout_marginTop="@dimen/portrait_text_side_margin"
+        android:layout_marginBottom="@dimen/portrait_text_bottom_margin"
+        android:layout_marginStart="@dimen/portrait_text_side_margin"
+        android:layout_marginEnd="@dimen/portrait_text_side_margin"
+        android:layout_weight="@dimen/portrait_text_weight" />
 </LinearLayout>

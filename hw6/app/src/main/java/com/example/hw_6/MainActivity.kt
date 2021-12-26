@@ -17,11 +17,11 @@ import androidx.leanback.widget.ImageCardView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTitle("Notes")
+        setTitle(R.string.window_name)
         setContentView(R.layout.activity_main)
 
         val cardView = findViewById<androidx.cardview.widget.CardView>(R.id.card_view)
-        val dateText = findViewById<TextView>(R.id.data_string)
+        val dateText = findViewById<TextView>(R.id.date_string)
         val cardText = findViewById<TextView>(R.id.card_text)
         val NotesList = NotesRepository.getNotesList()
         dateText.text = NotesList[0].date
