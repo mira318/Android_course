@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_height">128dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_side_margin">16dp</dimen>
+    <dimen name="card_top_margin">8dp</dimen>
+
+    <dimen name="card_image_width">96dp</dimen>
+    <dimen name="card_image_height">96dp</dimen>
+    <dimen name="card_image_side_margin">16dp</dimen>
+
+    <dimen name="card_date_height">18dp</dimen>
+    <dimen name="card_date_top_margin">16dp</dimen>
+    <dimen name="card_date_start_margin">128dp</dimen>
+
+    <dimen name="card_text_height">70dp</dimen>
+    <dimen name="card_text_start_margin">128dp</dimen>
+    <dimen name="card_text_end_margin">16dp</dimen>
+    <dimen name="card_text_top_margin">42dp</dimen>
+    <dimen name="card_text_bottom_margin">16dp</dimen>
+
+    <dimen name="portrait_layout_weight_sum">1</dimen>
+
+    <dimen name="portrait_image_height">252dp</dimen>
+    <dimen name="portrait_image_width">203dp</dimen>
+    <dimen name="portrait_image_weight">0.5</dimen>
+    <dimen name="portrait_image_side_margin">16dp</dimen>
+    <dimen name="portrait_image_start_margin">83dp</dimen>
+    <dimen name="portrait_image_end_margin">74dp</dimen>
+
+    <dimen name="portrait_text_height">187dp</dimen>
+    <dimen name="portrait_text_width">328dp</dimen>
+    <dimen name="portrait_text_weight">0.5</dimen>
+    <dimen name="portrait_text_side_margin">16dp</dimen>
+    <dimen name="portrait_text_bottom_margin">89dp</dimen>
+
+    <dimen name="landscape_layout_weight_sum">1</dimen>
+
+    <dimen name="landscape_image_height">247dp</dimen>
+    <dimen name="landscape_image_width">222dp</dimen>
+    <dimen name="landscape_image_weight">0.5</dimen>
+    <dimen name="landscape_image_side_margin">16dp</dimen>
+
+    <dimen name="landscape_text_height">247dp</dimen>
+    <dimen name="landscape_text_width">370dp</dimen>
+    <dimen name="landscape_text_weight">0.5</dimen>
+    <dimen name="landscape_text_side_margin">16dp</dimen>
+
+</resources>

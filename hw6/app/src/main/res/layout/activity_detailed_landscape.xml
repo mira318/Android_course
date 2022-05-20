@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedActivityLandscape"
+    android:orientation="horizontal"
+    android:weightSum="@dimen/landscape_layout_weight_sum">
+
+    <ImageView
+        android:id="@+id/detailed_image_landscape"
+        android:layout_width="@dimen/landscape_image_width"
+        android:layout_height="@dimen/landscape_image_height"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="@dimen/landscape_image_side_margin"
+        android:layout_marginTop="@dimen/landscape_image_side_margin"
+        android:layout_marginBottom="@dimen/landscape_image_side_margin"
+        android:layout_weight="@dimen/landscape_image_weight"
+        android:ellipsize="end"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/sunset_photo" />
+
+    <TextView
+        android:id="@+id/detailed_text_landscape"
+        tools:text="a looooong text about al that note and image and everything"
+        android:layout_width="@dimen/landscape_text_width"
+        android:layout_height="@dimen/landscape_text_height"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="@dimen/landscape_text_side_margin"
+        android:layout_marginTop="@dimen/landscape_text_side_margin"
+        android:layout_marginBottom="@dimen/landscape_text_side_margin"
+        android:layout_marginEnd="@dimen/landscape_text_side_margin"
+        android:layout_weight="@dimen/landscape_text_weight" />
+
+</LinearLayout>
